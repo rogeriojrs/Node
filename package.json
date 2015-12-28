@@ -1,0 +1,24 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "site da casa do codigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rogerio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-load": "^1.1.15",
+    "mysql": "^2.10.0",
+    "slack-node": "^0.1.7",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  }
+}
