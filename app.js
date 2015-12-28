@@ -13,6 +13,8 @@ app.get('/produtos',function(req,res){
 })
 */
 //app.listen(3000,function(){
-http.listen(3000,function(){
+
+var porta = process.env.PORT || 3000; //subindo pro heroku
+http.listen(porta,function(){
 	console.log("servidor rodando");
 });
